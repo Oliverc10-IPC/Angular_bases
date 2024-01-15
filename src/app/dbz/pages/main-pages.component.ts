@@ -22,6 +22,10 @@ export class MainPageComponent {
     }
   ];
 
+  onDeleteCharacter(index:number):void{
+    this.characters.splice(index,1);
+  }
+
   newCharacter(character: Character): void{
     console.log(character);
     this.characters.push(character);

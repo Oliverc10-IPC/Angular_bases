@@ -19,7 +19,6 @@ export class addCharacterComponent {
     console.log(this.newCharacter);
     if (this.newCharacter.name.length === 0) return;
     this.onNewCharacter.emit(this.newCharacter);
-    this.newCharacter.name = '';
-    this.newCharacter.power = 0;
+    this.newCharacter= {name:"", power: 0}
   }
 }
