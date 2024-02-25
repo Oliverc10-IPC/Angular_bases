@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { Character } from '../../interface/character.interface';
+import { Character } from '../../interfaces/character.interface';
 
 @Component({
   selector: 'app-dbz-add-character',
